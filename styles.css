@@ -1,1 +1,99 @@
-/* Styles for the Advanced Markup assignment. */
+
+nav ul.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0061ff
+}
+
+nav ul.top-nav li {
+    float: left;
+}
+
+nav ul.top-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav ul.top-nav li a:hover {
+    background-color: orange;
+}
+
+h1 {
+  background: orange;
+}
+a.active {
+  font-weight: bold;
+}
+p {
+  font-family: verdana;
+  font-size: 14px;
+}
+p.smalltext {
+  font-size:9px;
+  text-align: center;
+}
+#sidebar {
+  font-family: "Bodoni MT", Times, serif;
+  width: 300px;
+  float: right;
+  background: orange;
+  margin: 25px;
+  padding: 15px;
+}
+section ul.poem {
+  margin-left: 25px;
+  list-style-type: none;
+  font: 400 20px/1.3 'Oleo Script', Helvetica, sans-serif;
+  	color: #2b2b2b;
+  	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);  
+}
+   section ul.poem:first-letter {
+  font-size: 200%;
+}
+table, th, td {
+   border: 1px solid black;
+   text-align: center;
+   background: orange;
+   padding: 6px;
+}
+  img {
+    float: left;
+    margin: 0 10px 5px 4px;
+}
+.caption {
+  align: center;
+  font-size: 12px;
+}
+.bibliography {
+  list-style-type: none
+}
+nav ul.bottom-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0061ff
+}
+
+nav ul.bottom-nav li {
+    float: left;
+}
+
+nav ul.bottom-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul.bottom-nav li a:hover {
+    background-color: orange
+}
